@@ -44,7 +44,7 @@ export default class News extends Component {
   render() {
     return (
       <div className='container my-3'>
-        <h2>News Monkey - Top headlines</h2>
+        <h1 className="text-center"><b><u>News Monkey - Top headlines</u></b></h1>
         <div className="row">
         {this.state.articles.map((element) => {
           return(
